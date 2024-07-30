@@ -143,4 +143,52 @@ main section{
     display: flex;
     gap: 24px;
 }
-
+/* resume style */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.resume-coloum-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+.experience-title{
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+}
+.experience-sub-title{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.experience-discriprion{
+  margin-bottom: 25px;
+}
+.resume-download-cv{
+  margin-top: 20px;
+}
+/* footer styles */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 110px;
+}
+footer input[type="text"], footer input[type="Email"]{
+  height: 45px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 430px;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  border: none;
+}
+footer textarea{
+  display: block;
+  height: 180px;
+  width: 460px;
+  border: none;
+  margin-bottom: 24px;
+}
+      
